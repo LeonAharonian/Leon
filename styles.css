@@ -1,0 +1,203 @@
+@font-face {
+    font-family: molot;
+    src: url(fonts/molot/Molot.otf);
+}
+
+@font-face {
+    font-family: aileron;
+    src: url(fonts/aileron/Aileron-Regular.otf);
+}
+
+@font-face {
+    font-family: aileronbold;
+    src: url(fonts/aileron/Aileron-Bold.otf);
+}
+
+@font-face {
+    font-family: bebas;
+    src: url(fonts/bebas-kai/BebasKai.otf);
+}
+
+@font-face {
+    font-family: virgo;
+    src: url(fonts/Virgo-01/virgo.ttf);
+}
+
+body {
+    background-color:#C8C8C8;
+    background-color:#04135a ;
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    margin: auto;
+    
+    
+}
+
+
+h1{
+    font-family: aileronbold, sans-serif;
+    text-align: center;
+    
+    color: white;
+    font-size: 36px;
+}
+h3{
+    font-family: aileronbold, sans-serif;
+    text-align: center;
+    
+    color: white;
+    text-size-adjust: 28px;
+}
+h4{
+    font-family: aileronbold, sans-serif;
+    text-align: center;
+    
+    color: white;
+    text-size-adjust: 20px;
+}
+
+nav{
+    font-family: aileron, sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    
+    
+    
+    
+}
+
+nav a{
+    
+    padding-right: 25px;
+    font-size: 120%;
+    text-decoration: none;
+    
+}
+a:link {
+    color:#f9a533;
+
+}
+a:visited{
+    color:#f9a533;
+    
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+   
+}
+.column {
+    float: left;
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    
+
+      
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+
+h2 {
+    font-family: virgo, sans-serif;
+    color:#3c3f4b ;
+    font-size: 30px;
+}
+
+p {
+    font-family: aileron, sans-serif;
+    color:#3c3f4b;
+    text-align: left;
+    font-size: 24px;
+}
+
+.onbackground{
+    color:white; 
+    line-height: 1.5em;
+}
+
+
+.entry {
+    background-color: white;
+    border-radius: 25px;
+   
+    margin: auto;
+    border:  5px solid #f9a533;
+    
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    width:85%;
+    
+    
+}
+
+.box {
+    background-color: white;
+
+    border-radius: 25px;
+   
+    margin: auto;
+    border:  5px solid #f9a533;
+    
+    padding-bottom: 15px;
+    padding-top:15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    width:85%;
+    line-height: 1.5;
+
+}
+
+
+.clearbox p{
+    color:white;
+}
+
+
+.pagetitle{
+    padding-top:15px;
+    padding-bottom: 25px;
+}
+
+header {
+    text-align: left;
+    margin-bottom: 5px;
+    font-size:120%;
+    padding-top: 20px;
+    padding-left: 20px;
+   
+}
+header p{
+    color:white; 
+    font-size: 75%; 
+    text-align: left;
+    font-family: virgo, sans-serif;
+}
+
+
+img {
+    outline: 1px solid white;
+    outline-offset: 10px;
+    align-items: center;
+    
+}
+
+iframe {
+    outline: 1px solid white;
+    outline-offset: 10px;
+    align-items: center;
+    
+}
+.noborder{
+    outline: 0px;
+    padding-bottom: 0px;
+}
