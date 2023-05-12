@@ -227,3 +227,8 @@ iframe {
 .highlight2:hover {
     transform: scale(1.2);
 }
+
+.space{
+    margin-left: 2%;
+    margin-right: 2%;
+}
