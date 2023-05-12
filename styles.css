@@ -64,6 +64,14 @@ h4{
     text-size-adjust: 20px;
 }
 
+h5{
+    font-family: aileronbold, sans-serif;
+    text-align: center;
+    
+    color: white;
+    text-size-adjust: 60px;
+}
+
 nav{
     font-family: aileron, sans-serif;
     text-align: center;
