@@ -12,8 +12,8 @@
     <nav>
         <a href="index.html">About</a>
         <a href="design.html">Engineering Projects</a>
-        <a href="resume.html" target="_blank">Resume</a>
-        <a href="contact.html" target="_blank">Contact</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
     </nav>
     
     <div class="pagetitle">
@@ -23,11 +23,19 @@
     </div>
 
     <div>
-        <a href="mailto:la2807@columbia.edu">Send Email</a>
-        <form action="submit.php" method="post">
-            <label for="message">Enter your message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
-            <input type="submit" value="Submit">
+        <form action="mailto:la2807@columbia.edu" method="post" enctype="text/plain">
+            <label for="email" style="color: white;">Your email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="message" style="color: white;">Message:</label>
+            <textarea id="message" name="message" rows="6" cols="50"></textarea>
+            <br>
+            <input type="submit" value="Send" style="color: white; background-color: black;">
           </form>
+    </div>
+
+    <div>
+        <p style="text-align: center; color: white;">Call or text me at <a href="tel:+1234567890">123-456-7890</a>.</p>
+
     </div>
 </body>
