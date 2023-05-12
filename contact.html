@@ -23,19 +23,37 @@
     </div>
 
     <div>
-        <form action="mailto:la2807@columbia.edu" method="post" enctype="text/plain">
+        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
             <label for="email" style="color: white;">Your email:</label>
-            <input type="email" id="email" name="email">
+            <br>
+            <input type="email" id="sender" name="sender" placeholder="example@gmail.com" required>
             <br>
             <label for="message" style="color: white;">Message:</label>
-            <textarea id="message" name="message" rows="6" cols="50"></textarea>
             <br>
-            <input type="submit" value="Send" style="color: white; background-color: black;">
+            <textarea id="message" name="message" rows="6" cols="50" placeholder="Type your message here..." required></textarea>
+            <br>
+            <input type="submit" value="Send" style="color: white; background-color: rgba(111, 83, 235, 0.347);">
           </form>
+
+          <script>
+            // Get the input elements
+            var emailInput = document.getElementById("email");
+            var messageInput = document.getElementById("message");
+          
+            // Clear the placeholder text when the input is clicked
+            emailInput.onclick = function() {
+              emailInput.placeholder = "";
+            }
+            messageInput.onclick = function() {
+              messageInput.placeholder = "";
+            }
+          </script>
     </div>
 
     <div>
-        <p style="text-align: center; color: white;">Call or text me at <a href="tel:+1234567890">123-456-7890</a>.</p>
+        <p style="text-align: center; color: white;">Call or text me at <a href="tel:+19176129705">917 612-8705</a></p>
 
-    </div>
+    </div> 
+
+
 </body>
