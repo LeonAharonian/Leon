@@ -209,3 +209,13 @@ iframe {
     outline: 0px;
     padding-bottom: 0px;
 }
+
+
+.highlight2 {
+    outline: 0px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.highlight2:hover {
+    transform: scale(1.2);
+}

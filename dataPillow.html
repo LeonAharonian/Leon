@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+
+<style>
+</style> 
+
+<body>
+    <nav>
+        <a href="index.html">About</a>
+        <a href="design.html">Engineering Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    
+    
+    <div class="pagetitle">
+        <h1 >
+            DATA PILLOW
+        </h1>
+    </div>
+
+    <div class="row">
+       <div class='column'>
+            <img src="photos/elderly.png" width="60%" height="auto" class="noborder"/>
+        </div>
+           
+       <div class='column' >
+            <div style="padding-right:14%;">   
+                <!-- This is a comment <h1 class="onbackground" style="font-size: 24px;">Bio:</h1> -->
+                <p style="color:white; line-height: 1.5em; ">
+                    In the healthcare industry, it is becoming harder to find long-term economic solutions for
+                    personalized elder care. Nursing staff cannot reasonably be expected to monitor a patient at
+                    every hour of every day. Yet, demand for full-time care is unyielding. Autonomous solutions are
+                    starting to be explored.
+
+                </p>
+            </div>
+       </div>
+
+    </div>
+
+    <div style="padding-left:7%; padding-right:7%;">   
+        <!-- This is a comment <h1 class="onbackground" style="font-size: 24px;">Bio:</h1> -->
+        <p style="color:white; line-height: 1.5em; ">
+            The purpose of this project is to passively and non-invasively monitor a patient’s health
+            while they sleep. The idea is to embed sensors (and a microcomputer) in a patient’s bed pillow
+            that record vital signs throughout the night. The data taken are fed into an algorithm that
+            assesses the overall health of the patient. If there is a reason to suspect that a patient is not
+            healthy, the microcomputer alerts a human contact. The end goal is to have a pillow and
+            machine learning model powerful enough to accurately monitor a patient’s health and, in the
+            case of an emergency, save precious minutes by contacting medical services as soon as
+            possible.
+
+        </p>
+    </div>
+    
+
+    <div class="row">
+        <div class='column' >
+             <div style="padding-left:14%;">   
+                 <!-- This is a comment <h1 class="onbackground" style="font-size: 24px;">Bio:</h1> -->
+                 <p style="color:white; line-height: 1.5em; ">
+                    As of May 2023, four sensors have been implemented into a physical prototype. First, a
+                    microphone. A microphone allows for the pillow to monitor the patient’s breathing patterns and
+                    detect any anomalous noises, such as coughing or exclamations of pain. Second, there are
+                    several force sensitive resistors (FSRs) arranged in a grid on the pillow’s surface. These
+                    function as pressure sensors to detect the presence and position of the patient’s head on the
+                    pillow. Third, there are the thermistors; these detect changes in temperature and, if calibrated
+                    correctly through software, may provide readings of a patient’s body temperature. The
+                    trimesters are attached to tin foil (a material that has high thermal conductivity) to maximize their
+                    surface area. Lastly, there is an inertial measurement unit (IMU) that detects the movement of
+                    the pillow across six axes.
+ 
+                 </p>
+             </div>
+        </div>
+
+        <div class='column'>
+            <img src="photos/dataPillow.png" width="85%" height="auto" class="noborder"/>
+        </div>
+ 
+     </div>
+
+     <div class="row">
+
+        <div class='column'>
+            <img src="photos/protected.png" width="85%" height="auto" class="noborder"/>
+        </div>
+
+
+        <div class='column' >
+             <div style="padding-right:14%;">   
+                 <!-- This is a comment <h1 class="onbackground" style="font-size: 24px;">Bio:</h1> -->
+                 <p style="color:white; line-height: 1.5em; ">
+                    In the future, there is room on the pillow for an ultra wideband (UWB) radar module. This
+                    would allow for a noninvasive method of detecting human presence in a room without relying on
+                    the pressure sensors or the microphone. Low-frequency pulses allow the UWB module to map
+                    out a small space roughly the size of a bedroom. Unfortunately, we were unable to obtain a
+                    UWB module this semester.
+ 
+                 </p>
+             </div>
+        </div>
+
+        
+     </div>
+
+     <div class="row">
+        <div class='column' >
+             <div style="padding-left:14%;">   
+                 <!-- This is a comment <h1 class="onbackground" style="font-size: 24px;">Bio:</h1> -->
+                 <p style="color:white; line-height: 1.5em; ">
+                    All of the embedded sensors have been tested using a data acquisition (DAQ) board.
+                    The FSRs and thermistors function as voltage dividers, so changes in voltage in an analog input
+                    viewer can be converted into usable data. The microphone connects via USB and the IMU is
+                    compatible with Python, so a small microcomputer (such as a Raspberry Pi) would be sufficient
+                    for data collection. The next steps of this project would be to improve the wiring of the sensors
+                    on the pillow and to write software to better interpret the data readings from the pillow. Then, a
+                    machine learning algorithm could be trained using this data to detect the physical responses of
+                    certain health conditions, such as night terrors or seizures. Finally, a user interface could be
+                    developed to better serve the needs of specific patients.
+ 
+                 </p>
+             </div>
+        </div>
+
+        <div class='column'>
+            <img src="photos/comfertable.jpg" width="85%" height="auto" class="noborder"/>
+        </div>
+ 
+     </div>
+ 
+   
+</body>
