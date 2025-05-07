@@ -83,6 +83,25 @@ body {
   .image-container:hover .hover-text {
     opacity: 1;
   }
+
+  .hover-tag {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(112, 50, 255, 0.9);
+    color: white;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .image-container:hover .hover-tag {
+    opacity: 1;
+  }
   
   .highlight:hover {
     border: 4px solid rgb(112, 50, 255);
